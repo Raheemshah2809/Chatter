@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, TouchableOpacity, Image } from 'react-native';
+import { View, Text, TouchableOpacity, Image, } from 'react-native';
 import TextInputComponent from '../Components/TextInputComponent';
 import ButtonComponent from '../Components/ButtonComponent';
 import { LoginUser } from '../Firebase/LoginUser';
@@ -49,19 +49,26 @@ class Login extends Component {
     }
     render() {
         return (
-            <View style={{ flex: 1, backgroundColor: '#000', justifyContent: 'center', alignItems: 'center' }}>
+            <View style={{ flex: 1, backgroundColor: '#000000', justifyContent: 'center', alignItems: 'center' }}>
+                <Text style={{ color: '#14FFEC', fontSize: 30, fontWeight: 'bold', bottom: 100 }}>Welcome To Chatter</Text>
                 <Image source={require('../Assets/codehunger.png')} style={{ width: 100, height: 100, borderRadius: 50, marginBottom: 30 }} />
                 <TextInputComponent placeholder="Enter Email" updateFields={(text) => this.setState({ email: text })} />
                 <TextInputComponent placeholder="Enter Password" updateFields={(text) => this.setState({ password: text })} />
                 <ButtonComponent title="Login" onPress={() => { this.LogintoFirebase() }} />
                 <TouchableOpacity onPress={() => { this.props.navigation.navigate('SignUp') }}>
-                    <Text style={{ color: '#fff', fontSize: 16, fontWeight: 'bold' }}>New User? Click Here</Text>
+                    <Text style={{ color: '#fff', fontSize: 16, fontWeight: 'bold' }}>New User? Click Here {"\n"}</Text>
                 </TouchableOpacity>
+                <TouchableOpacity onPress={() => { this.props.navigation.navigate('ForgotPassword') }}>
+                    <Text style={{ color: '#fff', fontSize: 16, fontWeight: 'bold' }}>ForgotPassword {"\n"}</Text>
+                </TouchableOpacity>
+                <Text style={{ color: '#FFF', fontSize: 16, fontWeight: 'bold', top: 120 }}>Version 0.2</Text>
+                
                 <Spinner
                     visible={this.state.loader}
                 />
             </View>
         )
+        
     }
 }
 

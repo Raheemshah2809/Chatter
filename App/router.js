@@ -3,10 +3,12 @@ import SignUp from '../App/Screens/SignUpScreen';
 import Login from '../App/Screens/LoginScreen';
 import Dashboard from '../App/Screens/DashboardScreen';
 import Chat from '../App/Screens/ChatScreen';
+import ForgotPassword from '../App/Screens/ForgotPasswordScreen';
 
 const AuthStack = createStackNavigator({
     Login: Login,
     SignUp: SignUp,
+    ForgotPassword: ForgotPassword,
 }, {
     headerMode: 'none', initialRouteName: 'Login'
 });

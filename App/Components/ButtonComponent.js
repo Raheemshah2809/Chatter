@@ -29,12 +29,13 @@ const styles = StyleSheet.create({
         marginBottom: 5,
         width: '85%',
         paddingHorizontal: 6,
-        backgroundColor: '#ffd302',
+        backgroundColor: '#25DBE6',
         margin: 10
     },
     textStyle: {
         fontSize: 18,
         fontWeight:'bold'
+        
     }
 });
 

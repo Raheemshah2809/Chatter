@@ -127,13 +127,18 @@ class Dashboard extends Component {
                     data={this.state.allUsers}
                     style={{ padding: 5 }}
                     keyExtractor={(_, index) => index.toString()}
+                    
                     ListHeaderComponent={
                         <View style={{ height: 160, justifyContent: 'center', alignItems: 'center' }}>
-                            <TouchableOpacity style={{ height: 90, width: 90, borderRadius: 45 }} onPress={() => { this.openGallery() }}>
+                            <TouchableOpacity style={{ height: 90, width: 90, borderRadius: 45, right: 125}} onPress={() => { this.openGallery() }}>
                                 <Image source={{ uri: this.state.imageUrl === '' ? 'https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50' : this.state.imageUrl }} style={{ height: 90, width: 90, borderRadius: 45 }} />
                             </TouchableOpacity>
-                            <Text style={{ color: '#fff', fontSize: 20, marginTop: 10, fontWeight: 'bold' }}>{this.state.loggedInUserName}</Text>
+                            <Text style={{ color: '#fff', fontSize: 15, marginTop: 10, fontWeight: 'bold', left: 40, bottom: 70 }}> Welcome: {this.state.loggedInUserName}
+                            {"\n"}
+                            Select A Chat To Get Started
+                            </Text> 
                         </View>
+                        
                     }
                     renderItem={({ item }) => (
                         <View>
@@ -148,6 +153,7 @@ class Dashboard extends Component {
                                 <View style={{ width: '20%', alignItems: 'flex-start', justifyContent: 'center', marginRight: 20 }}>
                                     <Text style={{ color: '#fff', fontSize: 13, fontWeight: '400' }}>{item.lastTime}</Text>
                                 </View>
+                                
                             </TouchableOpacity>
                             <View style={{ borderWidth: 0.5, borderColor: '#fff' }} />
                         </View>

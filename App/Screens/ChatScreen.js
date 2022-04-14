@@ -105,7 +105,7 @@ class Chat extends Component {
                     keyExtractor={(_, index) => index.toString()}
                     renderItem={({ item }) => (
                         <View style={{ marginVertical: 5, maxWidth: Dimensions.get('window').width / 2 + 10, alignSelf: this.state.currentUid === item.sendBy ? 'flex-end' : 'flex-start' }}>
-                            <View style={{ borderRadius: 20, backgroundColor: this.state.currentUid === item.sendBy ? '#fff' : '#ccc' }}>
+                            <View style={{ borderRadius: 20, backgroundColor: this.state.currentUid === item.sendBy ? '#fff' : '#9CC0E7' }}>
                                 {item.image === "" ? <Text style={{ padding: 10, fontSize: 16, fontWeight: 'bold' }}>
                                     {item.msg} {"   "} <Text style={{ fontSize: 12 }}>{item.time}</Text>
                                 </Text> :
@@ -123,7 +123,7 @@ class Chat extends Component {
                         <Icons name="camera" size={30} color="#fff" />
                     </TouchableOpacity>
                     <View style={{ width: '75%', justifyContent: 'center' }}>
-                        <TextInput value={this.state.message} onChangeText={(text) => this.setState({ message: text })} placeholder="Enter Message" placeholderTextColor="#000" style={{ height: 40, borderRadius: 20, backgroundColor: '#ccc' }} />
+                        <TextInput value={this.state.message} onChangeText={(text) => this.setState({ message: text })} placeholder="Enter Message" placeholderTextColor="#000" style={{ height: 40, borderRadius: 20, backgroundColor: '#FFF' }} />
                     </View>
                     <TouchableOpacity style={{ width: '10%', justifyContent: 'center', alignItems: 'center', marginLeft: 5 }} onPress={() => this.sendMessage()}>
                         <Icons name="send" size={30} color="#fff" />
