@@ -1,7 +1,5 @@
 import Firebase from 'firebase';
 
-
-
 const firebaseConfig = {
   apiKey: "AIzaSyA6gbg8fdHTDlZbFv4AOaCm4zDCEXMrJ0M",
   authDomain: "thechatter-ec861.firebaseapp.com",
@@ -10,13 +8,5 @@ const firebaseConfig = {
   messagingSenderId: "128478114918",
   appId: "1:128478114918:web:6c02753cc7d6e080d229a7"
 };
-
-checkUserAuth: user => {
-  return firebase.auth().onAuthStateChanged(user)
-};
-passwordReset: email => {
-  return firebase.auth().sendPasswordResetEmail(email)
-};
-
 
 export default Firebase.initializeApp(firebaseConfig);
