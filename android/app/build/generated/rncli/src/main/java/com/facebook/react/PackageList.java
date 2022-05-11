@@ -11,6 +11,8 @@ import com.facebook.react.shell.MainReactPackage;
 import java.util.Arrays;
 import java.util.ArrayList;
 
+// @notifee/react-native
+import io.invertase.notifee.NotifeePackage;
 // @react-native-community/async-storage
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 // @react-native-community/masked-view
@@ -21,6 +23,8 @@ import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import fr.snapp.imagebase64.RNImgToBase64Package;
 // react-native-image-picker
 import com.imagepicker.ImagePickerPackage;
+// react-native-push-notification
+import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;
 // react-native-reanimated
 import com.swmansion.reanimated.ReanimatedPackage;
 // react-native-safe-area-context
@@ -74,11 +78,13 @@ public class PackageList {
   public ArrayList<ReactPackage> getPackages() {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
+      new NotifeePackage(),
       new AsyncStoragePackage(),
       new RNCMaskedViewPackage(),
       new RNGestureHandlerPackage(),
       new RNImgToBase64Package(),
       new ImagePickerPackage(),
+      new ReactNativePushNotificationPackage(),
       new ReanimatedPackage(),
       new SafeAreaContextPackage(),
       new RNScreensPackage(),

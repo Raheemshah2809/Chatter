@@ -58,7 +58,7 @@ class Login extends Component {
                 <TouchableOpacity onPress={() => { this.props.navigation.navigate('SignUp') }}>
                     <Text style={{ color: '#fff', fontSize: 16, fontWeight: 'bold' }}>New User? Click Here {"\n"}</Text>
                 </TouchableOpacity>
-                <TouchableOpacity onPress={() => { this.props.navigation.navigate('ForgotPassword') }}>
+                <TouchableOpacity onPress={() => { this.props.navigation.navigate('ForgotPassword') }}>     
                     <Text style={{ color: '#fff', fontSize: 16, fontWeight: 'bold' }}>ForgotPassword {"\n"}</Text>
                 </TouchableOpacity>
                 <Text style={{ color: '#FFF', fontSize: 16, fontWeight: 'bold', top: 120 }}>Version 0.3</Text>
