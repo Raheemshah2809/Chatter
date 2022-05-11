@@ -1,6 +1,6 @@
 import Firebase from './firebaseConfig';
 
-export const AddUser = async (name, email, image, uid) => {
+export const AddUser = async (name, university, email, image, uid) => {
     try {
         return await Firebase
             .database()
@@ -10,6 +10,7 @@ export const AddUser = async (name, email, image, uid) => {
                 email: email,
                 image: image,
                 uuid: uid,
+                university: university
             });
     } catch (error) {
         return error;

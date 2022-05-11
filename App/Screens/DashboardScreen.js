@@ -7,12 +7,15 @@ import AppHeader from '../Components/AppHeader';
 import { launchCamera, launchImageLibrary } from 'react-native-image-picker';
 import { UpdateUserImage } from '../Firebase/Users';
 import ImgToBase64 from 'react-native-image-base64';
+import Icons from 'react-native-vector-icons/MaterialIcons';
+
 class Dashboard extends Component {
     state = {
         allUsers: [],
         loader: false,
         imageUrl: '',
-        loggedInUserName: ''
+        loggedInUserName: '',
+        university: '',
     }
 
     async componentDidMount() {
@@ -30,7 +33,8 @@ class Dashboard extends Component {
                         datasnapshot.forEach((child) => {
                             if (child.val().uuid === uuid) {
                                 console.log('ff', child.val().image);
-                                this.setState({ loggedInUserName: child.val().name, imageUrl: child.val().image })
+                                this.setState({ loggedInUserName: child.val().name, imageUrl: child.val().image, university: child.val().university })
+                                
                             }
                             else {
                                 let newUser = {
@@ -38,6 +42,7 @@ class Dashboard extends Component {
                                     userName: '',
                                     userProPic: '',
                                     lastMessage: '',
+                                    university: '',
                                     lastDate: '',
                                     lastTime: '',
                                     properDate: ''
@@ -50,7 +55,8 @@ class Dashboard extends Component {
                                                     lastMessage = child.val().messege.image !== '' ? 'Photo' : child.val().messege.msg;
                                                     lastDate = child.val().messege.date;
                                                     lastTime = child.val().messege.time;
-                                                    properDate = child.val().messege.date + " " + child.val().messege.time
+                                                    properDate = child.val().messege.date + " " + child.val().messege.time;
+                                                    newUser.university = child.val().university;
                                                 });
                                             }
                                             else {
@@ -63,6 +69,7 @@ class Dashboard extends Component {
                                             newUser.userName = child.val().name;
                                             newUser.userProPic = child.val().image;
                                             newUser.lastMessage = lastMessage;
+                                            newUser.university = child.val().university;
                                             newUser.lastTime = lastTime;
                                             newUser.lastDate = lastDate;
                                             newUser.properDate = properDate;
@@ -71,6 +78,7 @@ class Dashboard extends Component {
                                 }).then((newUser) => {
                                     users.push({
                                         userName: newUser.userName,
+                                        university: newUser.university,
                                         uuid: newUser.userId,
                                         imageUrl: newUser.userProPic,
                                         lastMessage: newUser.lastMessage,
@@ -78,6 +86,8 @@ class Dashboard extends Component {
                                         lastDate: newUser.lastDate,
                                         properDate: newUser.lastDate ? new Date(newUser.properDate) : null
                                     });
+
+                                    console.log('users', users);
                                     this.setState({ allUsers: users.sort((a, b) => b.properDate - a.properDate) });
                                 });
                                 return resolve(users);
@@ -135,6 +145,8 @@ class Dashboard extends Component {
                             </TouchableOpacity>
                             <Text style={{ color: '#fff', fontSize: 15, marginTop: 10, fontWeight: 'bold', left: 40, bottom: 70 }}> Welcome: {this.state.loggedInUserName}
                             {"\n"}
+                            {this.state.university}
+                            {"\n"}
                             Select A Chat To Get Started
                             </Text> 
                         </View>
@@ -142,14 +154,22 @@ class Dashboard extends Component {
                     }
                     renderItem={({ item }) => (
                         <View>
-                            <TouchableOpacity style={{ flexDirection: 'row', marginBottom: 20, marginTop: 20 }} onPress={() => this.props.navigation.navigate('Chat', { UserName: item.userName, guestUid: item.uuid })}>
+                            <TouchableOpacity style={{ flexDirection: 'row', marginBottom: 20, marginTop: 20 }} onPress={() => this.props.navigation.navigate('Chat', { UserName: item.userName, guestUid: item.uuid, university: item.university })}>
                                 <View style={{ width: '15%', alignItems: 'center', justifyContent: 'center' }}>
                                     <Image source={{ uri: item.imageUrl === '' ? 'https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50' : item.imageUrl }} style={{ height: 50, width: 50, borderRadius: 25 }} />
                                 </View>
                                 <View style={{ width: '65%', alignItems: 'flex-start', justifyContent: 'center', marginLeft: 10 }}>
-                                    <Text style={{ color: '#fff', fontSize: 16, fontWeight: 'bold' }}>{item.userName}</Text>
+                                    <Text style={{ color: '#fff', fontSize: 16, fontWeight: 'bold', justifyContent: 'center', alignItems: 'center' }}>{item.userName} {"\n"}
+                                    <View style={{justifyContent: 'center', marginBottom: 100, flexDirection: "column", flexWrap: 'wrap'}}
+                                    >
+                                        <Text style={{ display: 'flex', color: '#fff', fontSize: 12, fontWeight: 'bold', }}>
+                                            {item.university}</Text>
+                                        <Icons style={{ marginRight: 'auto'}} name="school" size={20} color="#FFF"/>
+                                    </View>
+                                    </Text>
+                                    
                                     <Text style={{ color: '#fff', fontSize: 14, fontWeight: '600' }}>{item.lastMessage}</Text>
-                                </View>
+                                </View> 
                                 <View style={{ width: '20%', alignItems: 'flex-start', justifyContent: 'center', marginRight: 20 }}>
                                     <Text style={{ color: '#fff', fontSize: 13, fontWeight: '400' }}>{item.lastTime}</Text>
                                 </View>

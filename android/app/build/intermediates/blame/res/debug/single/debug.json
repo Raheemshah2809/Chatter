@@ -292,12 +292,12 @@
         "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/res/layout/text_view_with_line_height_from_style.xml"
     },
     {
-        "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/drawable_mtrl_ic_arrow_drop_down.xml.flat",
-        "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/res/drawable/mtrl_ic_arrow_drop_down.xml"
-    },
-    {
         "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/color_design_icon_tint.xml.flat",
         "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/res/color/design_icon_tint.xml"
+    },
+    {
+        "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/drawable_mtrl_ic_arrow_drop_down.xml.flat",
+        "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/res/drawable/mtrl_ic_arrow_drop_down.xml"
     },
     {
         "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/drawable_ic_mtrl_chip_close_circle.xml.flat",
@@ -392,32 +392,32 @@
         "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/xml_standalone_badge_gravity_bottom_start.xml.flat",
-        "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/res/xml/standalone_badge_gravity_bottom_start.xml"
-    },
-    {
         "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnativeratings_src_images_rocket.png.flat",
         "source": "/Volumes/T7/Github Repos/Chatter/android/app/src/main/res/drawable-mdpi/node_modules_reactnativeratings_src_images_rocket.png"
     },
     {
-        "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
-        "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
+        "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/xml_standalone_badge_gravity_bottom_start.xml.flat",
+        "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/res/xml/standalone_badge_gravity_bottom_start.xml"
     },
     {
         "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_node_modules_reactnavigationstack_lib_module_views_assets_backicon.png.flat",
         "source": "/Volumes/T7/Github Repos/Chatter/android/app/src/main/res/drawable-xxxhdpi/node_modules_reactnavigationstack_lib_module_views_assets_backicon.png"
     },
     {
+        "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
         "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/layout_mtrl_picker_header_selection_text.xml.flat",
-        "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/res/layout/mtrl_picker_header_selection_text.xml"
-    },
-    {
         "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnativeratings_src_images_airbnbstar.png.flat",
         "source": "/Volumes/T7/Github Repos/Chatter/android/app/src/main/res/drawable-mdpi/node_modules_reactnativeratings_src_images_airbnbstar.png"
+    },
+    {
+        "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/layout_mtrl_picker_header_selection_text.xml.flat",
+        "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/res/layout/mtrl_picker_header_selection_text.xml"
     },
     {
         "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/drawable-v21_avd_show_password.xml.flat",
@@ -432,16 +432,16 @@
         "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
+        "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/raw_node_modules_reactnativevectoricons_glyphmaps_feather.json.flat",
+        "source": "/Volumes/T7/Github Repos/Chatter/android/app/src/main/res/raw/node_modules_reactnativevectoricons_glyphmaps_feather.json"
+    },
+    {
         "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/drawable-mdpi-v4/abc_ic_star_half_black_48dp.png"
     },
     {
         "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/raw_node_modules_reactnativevectoricons_glyphmaps_feather.json.flat",
-        "source": "/Volumes/T7/Github Repos/Chatter/android/app/src/main/res/raw/node_modules_reactnativevectoricons_glyphmaps_feather.json"
     },
     {
         "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/layout_design_layout_snackbar.xml.flat",
@@ -768,16 +768,16 @@
         "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
+        "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_node_modules_reactnavigationstack_lib_module_views_assets_backicon.png.flat",
+        "source": "/Volumes/T7/Github Repos/Chatter/android/app/src/main/res/drawable-xxhdpi/node_modules_reactnavigationstack_lib_module_views_assets_backicon.png"
+    },
+    {
         "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/drawable-v21_abc_action_bar_item_background_material.xml.flat",
         "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
         "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/color_abc_background_cache_hint_selector_material_light.xml.flat",
         "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/color/abc_background_cache_hint_selector_material_light.xml"
-    },
-    {
-        "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_node_modules_reactnavigationstack_lib_module_views_assets_backicon.png.flat",
-        "source": "/Volumes/T7/Github Repos/Chatter/android/app/src/main/res/drawable-xxhdpi/node_modules_reactnavigationstack_lib_module_views_assets_backicon.png"
     },
     {
         "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
@@ -1356,12 +1356,12 @@
         "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/color_mtrl_choice_chip_background_color.xml.flat",
-        "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/res/color/mtrl_choice_chip_background_color.xml"
-    },
-    {
         "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/raw_node_modules_reactnativevectoricons_glyphmaps_foundation.json.flat",
         "source": "/Volumes/T7/Github Repos/Chatter/android/app/src/main/res/raw/node_modules_reactnativevectoricons_glyphmaps_foundation.json"
+    },
+    {
+        "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/color_mtrl_choice_chip_background_color.xml.flat",
+        "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/res/color/mtrl_choice_chip_background_color.xml"
     },
     {
         "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat",
@@ -1556,12 +1556,12 @@
         "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/anim/abc_fade_in.xml"
     },
     {
-        "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/layout_test_toolbar_surface.xml.flat",
-        "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/res/layout/test_toolbar_surface.xml"
-    },
-    {
         "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/raw_node_modules_reactnativevectoricons_glyphmaps_octicons.json.flat",
         "source": "/Volumes/T7/Github Repos/Chatter/android/app/src/main/res/raw/node_modules_reactnativevectoricons_glyphmaps_octicons.json"
+    },
+    {
+        "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/layout_test_toolbar_surface.xml.flat",
+        "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/res/layout/test_toolbar_surface.xml"
     },
     {
         "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -1636,12 +1636,12 @@
         "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
-        "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/raw_app.json.flat",
         "source": "/Volumes/T7/Github Repos/Chatter/android/app/src/main/res/raw/app.json"
+    },
+    {
+        "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/layout_mtrl_calendar_vertical.xml.flat",
@@ -1736,16 +1736,16 @@
         "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/2baf45733ed41a6d7be513e17716242b/jetified-react-native-0.63.4/res/anim/catalyst_fade_out.xml"
     },
     {
+        "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/raw_node_modules_reactnativevectoricons_glyphmaps_fontisto.json.flat",
+        "source": "/Volumes/T7/Github Repos/Chatter/android/app/src/main/res/raw/node_modules_reactnativevectoricons_glyphmaps_fontisto.json"
+    },
+    {
         "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/interpolator_btn_radio_to_on_mtrl_animation_interpolator_0.xml.flat",
         "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/interpolator/btn_radio_to_on_mtrl_animation_interpolator_0.xml"
     },
     {
         "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/xml_standalone_badge.xml.flat",
         "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/res/xml/standalone_badge.xml"
-    },
-    {
-        "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/raw_node_modules_reactnativevectoricons_glyphmaps_fontisto.json.flat",
-        "source": "/Volumes/T7/Github Repos/Chatter/android/app/src/main/res/raw/node_modules_reactnativevectoricons_glyphmaps_fontisto.json"
     },
     {
         "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/layout_text_view_with_line_height_from_layout.xml.flat",
@@ -2564,24 +2564,24 @@
         "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png"
     },
     {
-        "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/layout_test_reflow_chipgroup.xml.flat",
-        "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/res/layout/test_reflow_chipgroup.xml"
-    },
-    {
         "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/layout_test_reflow_chipgroup.xml.flat",
+        "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/res/layout/test_reflow_chipgroup.xml"
     },
     {
         "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/layout_abc_search_dropdown_item_icons_2line.xml.flat",
         "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/raw_node_modules_reactnativevectoricons_glyphmaps_antdesign.json.flat",
         "source": "/Volumes/T7/Github Repos/Chatter/android/app/src/main/res/raw/node_modules_reactnativevectoricons_glyphmaps_antdesign.json"
+    },
+    {
+        "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/Users/raheemshah/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "/Volumes/T7/Github Repos/Chatter/android/app/build/intermediates/res/merged/debug/layout_test_toolbar_custom_background.xml.flat",

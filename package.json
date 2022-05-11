@@ -7,14 +7,18 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "build": "react-native bundle --dev false --platform android --entry-file index.js --bundle-output ./android/app/src/main/assets/index.android --assets-dest ./android/app/src/main/res/"
   },
   "dependencies": {
+    "@expo/vector-icons": "^13.0.0",
     "@react-native-community/async-storage": "^1.12.1",
     "@react-native-community/masked-view": "^0.1.10",
+    "expo-font": "^10.1.0",
     "firebase": "^8.2.2",
     "formik": "^2.2.9",
     "moment": "^2.29.1",
+    "promise": "^8.1.0",
     "react": "16.13.1",
     "react-native": "0.63.4",
     "react-native-elements": "^3.1.0",
@@ -24,6 +28,7 @@
     "react-native-image-picker": "^3.1.4",
     "react-native-loading-spinner-overlay": "^2.0.0",
     "react-native-reanimated": "^1.13.2",
+    "react-native-root-toast": "^3.3.0",
     "react-native-safe-area-context": "^3.1.9",
     "react-native-screens": "^2.16.1",
     "react-native-vector-icons": "^7.1.0",

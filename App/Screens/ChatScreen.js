@@ -15,7 +15,8 @@ class Chat extends Component {
         guestUid: '',
         currentUid: '',
         allMessages: [],
-        image: ''
+        image: '',
+        univeristy: '',
     }
 
     async componentDidMount() {

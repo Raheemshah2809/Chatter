@@ -7,6 +7,7 @@ import FormButton from '../Components/FormButton';
 import ErrorMessage from '../Components/ErrorMessage';
 import { withFirebaseHOC } from '../Config';
 import firebase from 'firebase';
+import Toast from 'react-native-root-toast';
 
 const validationSchema = Yup.object().shape({
   email: Yup.string()
@@ -17,7 +18,18 @@ const validationSchema = Yup.object().shape({
 
 class ForgotPassword extends Component {
 
+  showToast = () => {
+    let toast = Toast.show('Password Reset Email Sent!', {
+      duration: Toast.durations.LONG,
+    });
+    
+    // You can manually hide the Toast, or it will automatically disappear after a `duration` ms timeout.
+    setTimeout(function hideToast() {
+      Toast.hide(toast);
+    }, 5000);
+  }
   passwordReset = async(email) => {
+    this.showToast();
     return firebase.auth().sendPasswordResetEmail(email)
   }
 
@@ -80,7 +92,6 @@ class ForgotPassword extends Component {
                   onPress={handleSubmit}
                   title='Send Email'
                   buttonColor='#039BE5'
-                  disabled={!isValid || isSubmitting}
                 />
               </View>
               <ErrorMessage errorValue={errors.general} />

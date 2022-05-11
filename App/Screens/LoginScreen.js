@@ -51,7 +51,7 @@ class Login extends Component {
         return (
             <View style={{ flex: 1, backgroundColor: '#000000', justifyContent: 'center', alignItems: 'center' }}>
                 <Text style={{ color: '#14FFEC', fontSize: 30, fontWeight: 'bold', bottom: 100 }}>Welcome To Chatter</Text>
-                <Image source={require('../Assets/codehunger.png')} style={{ width: 100, height: 100, borderRadius: 50, marginBottom: 30 }} />
+                <Image source={require('../Assets/pngegg.png')} style={{ width: 100, height: 100, borderRadius: 50, marginBottom: 30 }} />
                 <TextInputComponent placeholder="Enter Email" updateFields={(text) => this.setState({ email: text })} />
                 <TextInputComponent placeholder="Enter Password" updateFields={(text) => this.setState({ password: text })} />
                 <ButtonComponent title="Login" onPress={() => { this.LogintoFirebase() }} />
@@ -61,7 +61,7 @@ class Login extends Component {
                 <TouchableOpacity onPress={() => { this.props.navigation.navigate('ForgotPassword') }}>
                     <Text style={{ color: '#fff', fontSize: 16, fontWeight: 'bold' }}>ForgotPassword {"\n"}</Text>
                 </TouchableOpacity>
-                <Text style={{ color: '#FFF', fontSize: 16, fontWeight: 'bold', top: 120 }}>Version 0.3</Text>
+                <Text style={{ color: '#FFF', fontSize: 16, fontWeight: 'bold', top: 120 }}>Version 0.4</Text>
                 
                 <Spinner
                     visible={this.state.loader}

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Image } from 'react-native';
+import { View,Text,Image } from 'react-native';
 import TextInputComponent from '../Components/TextInputComponent';
 import ButtonComponent from '../Components/ButtonComponent';
 import { SignUpUser } from '../Firebase/SignUp';
@@ -13,6 +13,7 @@ class SignUp extends Component {
         name: "",
         email: "",
         password: "",
+        university: "",
         loader: false
     }
 
@@ -25,16 +26,26 @@ class SignUp extends Component {
         {
             return alert('Please Enter Email');
         }
+        if(!this.state.university)
+        {
+            return alert('Please Enter Your University');
+        }
         if(!this.state.password)
         {
             return alert('Please Enter Password');
         }
+        const isValidEmail = this.state.email.match(/^[\w!#$%&'*+\/=?^`{|}~-]+(?:\.[\w!#$%&'*+\/=?`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+(?:ac\.uk)$/);
+        
+        if (!isValidEmail) {
+            alert('Please Enter Valid Email ending with .ac.uk');
+            return;
+        }  
         this.setState({ loader: true })
         SignUpUser(this.state.email, this.state.password).
             then(async (res) => {
                 console.log('res', res);
                 var userUID = Firebase.auth().currentUser.uid;
-                AddUser(this.state.name, this.state.email, '', userUID).
+                AddUser(this.state.name, this.state.university, this.state.email,'', userUID).
                     then(async () => {
                         this.setState({ loader: false });
                         await AsyncStorage.setItem('UID', userUID);
@@ -53,12 +64,17 @@ class SignUp extends Component {
     }
     render() {
         return (
-            <View style={{ flex: 1, backgroundColor: '#000', justifyContent: 'center', alignItems: 'center' }}>
-                <Image source={require('../Assets/codehunger.png')} style={{ width: 100, height: 100, borderRadius: 50, marginBottom: 30 }} />
+            
+            <View style={{ flex: 1, backgroundColor: '#000', justifyContent: 'center', 
+            alignItems: 'center' }}>
+            <Text style={{ color: '#14FFEC', fontSize: 30, fontWeight: 'bold', bottom: 100 }}>Register</Text>
+                <Image source={require('../Assets/pngegg.png')} style={{ width: 100, height: 100, borderRadius: 50, marginBottom: 30 }} />
                 <TextInputComponent placeholder="Enter Name" updateFields={(text) => this.setState({ name: text })} />
-                <TextInputComponent placeholder="Enter Email" updateFields={(text) => this.setState({ email: text })} />
+                <TextInputComponent placeholder="Enter University" updateFields={(text) => this.setState({ university: text })} />
+                <TextInputComponent placeholder="Enter .AC.UK Email" updateFields={(text) => this.setState({ email: text })} />
                 <TextInputComponent placeholder="Enter Password" updateFields={(text) => this.setState({ password: text })} />
                 <ButtonComponent title="Sign Up" onPress={() => { this.SignUPtoFIrebase() }} />
+                <ButtonComponent title="Back" onPress={() => { this.props.navigation.navigate('Login') }} />
                 <Spinner
                     visible={this.state.loader}
                 />
