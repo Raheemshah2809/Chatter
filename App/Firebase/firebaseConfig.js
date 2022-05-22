@@ -1,13 +1,20 @@
 import Firebase from 'firebase';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDQcabr0Uq4bs7bSfEM3Z0L5kZw2IAp68k",
-  authDomain: "chatter2-98418.firebaseapp.com",
-  databaseURL: "https://chatter2-98418-default-rtdb.firebaseio.com",
-  projectId: "chatter2-98418",
-  storageBucket: "chatter2-98418.appspot.com",
-  messagingSenderId: "327396990011",
-  appId: "1:327396990011:web:5e41a5078c5dd59c0d501e"
+  apiKey: "AIzaSyB_A9DLWo6s1fZL3GCz0dP76Z1QbBnDsas",
+
+  authDomain: "chatter3-79bf6.firebaseapp.com",
+
+  databaseURL: "https://chatter3-79bf6-default-rtdb.europe-west1.firebasedatabase.app",
+
+  projectId: "chatter3-79bf6",
+
+  storageBucket: "chatter3-79bf6.appspot.com",
+
+  messagingSenderId: "484686361335",
+
+  appId: "1:484686361335:web:5073ca0347e111df7a19f2"
+
 };
 
 export default Firebase.initializeApp(firebaseConfig);

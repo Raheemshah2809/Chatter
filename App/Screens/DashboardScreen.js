@@ -9,6 +9,7 @@ import { UpdateUserImage } from '../Firebase/Users';
 import ImgToBase64 from 'react-native-image-base64';
 import Icons from 'react-native-vector-icons/MaterialIcons';
 
+
 class Dashboard extends Component {
     state = {
         allUsers: [],
@@ -143,9 +144,10 @@ class Dashboard extends Component {
                             <TouchableOpacity style={{ height: 90, width: 90, borderRadius: 45, right: 125}} onPress={() => { this.openGallery() }}>
                                 <Image source={{ uri: this.state.imageUrl === '' ? 'https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50' : this.state.imageUrl }} style={{ height: 90, width: 90, borderRadius: 45 }} />
                             </TouchableOpacity>
-                            <Text style={{ color: '#fff', fontSize: 15, marginTop: 10, fontWeight: 'bold', left: 40, bottom: 70 }}> Welcome: {this.state.loggedInUserName}
+                            <Text style={{ color: '#fff', fontSize: 15, marginTop: 10, fontWeight: 'bold', left: 40, bottom: 70 }}>Welcome: {this.state.loggedInUserName}
                             {"\n"}
-                            {this.state.university}
+                            University: {this.state.university}
+
                             {"\n"}
                             Select A Chat To Get Started
                             </Text> 
@@ -163,12 +165,11 @@ class Dashboard extends Component {
                                     <View style={{justifyContent: 'center', marginBottom: 100, flexDirection: "column", flexWrap: 'wrap'}}
                                     >
                                         <Text style={{ display: 'flex', color: '#fff', fontSize: 12, fontWeight: 'bold', }}>
-                                            {item.university}</Text>
-                                        <Icons style={{ marginRight: 'auto'}} name="school" size={20} color="#FFF"/>
+                                        University: {item.university}</Text>
                                     </View>
                                     </Text>
                                     
-                                    <Text style={{ color: '#fff', fontSize: 14, fontWeight: '600' }}>{item.lastMessage}</Text>
+                                    <Text style={{ color: '#fff', fontSize: 14, fontWeight: '100' }}>Last Message: {item.lastMessage}</Text>
                                 </View> 
                                 <View style={{ width: '20%', alignItems: 'flex-start', justifyContent: 'center', marginRight: 20 }}>
                                     <Text style={{ color: '#fff', fontSize: 13, fontWeight: '400' }}>{item.lastTime}</Text>

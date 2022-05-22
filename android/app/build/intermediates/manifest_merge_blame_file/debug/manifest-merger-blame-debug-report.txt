@@ -81,6 +81,23 @@
 46                android:resource="@xml/imagepicker_provider_paths" />
 46-->[:react-native-image-picker] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
 47        </provider>
-48    </application>
-49
-50</manifest>
+48        <provider
+48-->[:react-native-webview] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+49            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+49-->[:react-native-webview] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+50            android:authorities="com.reactnativechatapp.fileprovider"
+50-->[:react-native-webview] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+51            android:exported="false"
+51-->[:react-native-webview] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+52            android:grantUriPermissions="true" >
+52-->[:react-native-webview] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+53            <meta-data
+53-->[:react-native-image-picker] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:70
+54                android:name="android.support.FILE_PROVIDER_PATHS"
+54-->[:react-native-image-picker] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+55                android:resource="@xml/file_provider_paths" />
+55-->[:react-native-image-picker] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
+56        </provider>
+57    </application>
+58
+59</manifest>

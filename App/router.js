@@ -4,6 +4,7 @@ import Login from '../App/Screens/LoginScreen';
 import Dashboard from '../App/Screens/DashboardScreen';
 import Chat from '../App/Screens/ChatScreen';
 import ForgotPassword from '../App/Screens/ForgotPasswordScreen';
+import Webview from '../App/Screens/WebviewScreen';
 
 const AuthStack = createStackNavigator({
     Login: Login,
@@ -15,7 +16,8 @@ const AuthStack = createStackNavigator({
 
 const DashboardStack = createStackNavigator({
     Dashboard: Dashboard,
-    Chat:Chat
+    Chat:Chat,
+    Webview:Webview,
 }, {
     initialRouteName: 'Dashboard', headerMode: 'none'
 });

@@ -17,6 +17,7 @@ MERGED from [:react-native-reanimated] /Volumes/T7/Github Repos/Chatter/node_mod
 MERGED from [:react-native-safe-area-context] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-vector-icons] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-webview] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
 MERGED from [com.facebook.react:react-native:0.63.4] /Users/raheemshah/.gradle/caches/transforms-2/files-2.1/2baf45733ed41a6d7be513e17716242b/jetified-react-native-0.63.4/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/raheemshah/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [org.webkit:android-jsc:r245459] /Users/raheemshah/.gradle/caches/transforms-2/files-2.1/6dd6245206e34676e1ee3aa6ee0f68c9/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
@@ -43,6 +44,7 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/raheemshah/.gradle
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/raheemshah/.gradle/caches/transforms-2/files-2.1/8cd6316737e8f518184be95be51b9ee8/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.2.1] /Users/raheemshah/.gradle/caches/transforms-2/files-2.1/37aaca75d3d19faa6fb296103cea95d8/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/raheemshah/.gradle/caches/transforms-2/files-2.1/c062602fe4e1f75f724363688044d993/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.webkit:webkit:1.4.0] /Users/raheemshah/.gradle/caches/transforms-2/files-2.1/3b83de90c219ca34f29d4da45b7d6604/webkit-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/raheemshah/.gradle/caches/transforms-2/files-2.1/c99af001058cd5265376dded8456f828/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/raheemshah/.gradle/caches/transforms-2/files-2.1/40f1c5d439eea30faeaafe93e7bdf45f/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/raheemshah/.gradle/caches/transforms-2/files-2.1/faa15558a5d57e35e462c9e1f0248694/loader-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -97,6 +99,8 @@ MERGED from /Volumes/T7/Github Repos/Chatter/android/app/src/main/AndroidManifes
 MERGED from /Volumes/T7/Github Repos/Chatter/android/app/src/main/AndroidManifest.xml:6:5-25:19
 MERGED from [:react-native-image-picker] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
 MERGED from [:react-native-image-picker] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-webview] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-webview] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
 MERGED from [com.facebook.react:react-native:0.63.4] /Users/raheemshah/.gradle/caches/transforms-2/files-2.1/2baf45733ed41a6d7be513e17716242b/jetified-react-native-0.63.4/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.63.4] /Users/raheemshah/.gradle/caches/transforms-2/files-2.1/2baf45733ed41a6d7be513e17716242b/jetified-react-native-0.63.4/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.9.0] /Users/raheemshah/.gradle/caches/transforms-2/files-2.1/c34148f30cbc3e974eff21cbfb6a112a/soloader-0.9.0/AndroidManifest.xml:11:5-20
@@ -187,6 +191,8 @@ MERGED from [:react-native-screens] /Volumes/T7/Github Repos/Chatter/node_module
 MERGED from [:react-native-screens] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.63.4] /Users/raheemshah/.gradle/caches/transforms-2/files-2.1/2baf45733ed41a6d7be513e17716242b/jetified-react-native-0.63.4/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.63.4] /Users/raheemshah/.gradle/caches/transforms-2/files-2.1/2baf45733ed41a6d7be513e17716242b/jetified-react-native-0.63.4/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/raheemshah/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
@@ -239,6 +245,8 @@ MERGED from [androidx.fragment:fragment:1.2.1] /Users/raheemshah/.gradle/caches/
 MERGED from [androidx.fragment:fragment:1.2.1] /Users/raheemshah/.gradle/caches/transforms-2/files-2.1/37aaca75d3d19faa6fb296103cea95d8/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/raheemshah/.gradle/caches/transforms-2/files-2.1/c062602fe4e1f75f724363688044d993/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/raheemshah/.gradle/caches/transforms-2/files-2.1/c062602fe4e1f75f724363688044d993/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.4.0] /Users/raheemshah/.gradle/caches/transforms-2/files-2.1/3b83de90c219ca34f29d4da45b7d6604/webkit-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.4.0] /Users/raheemshah/.gradle/caches/transforms-2/files-2.1/3b83de90c219ca34f29d4da45b7d6604/webkit-1.4.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/raheemshah/.gradle/caches/transforms-2/files-2.1/c99af001058cd5265376dded8456f828/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/raheemshah/.gradle/caches/transforms-2/files-2.1/c99af001058cd5265376dded8456f828/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/raheemshah/.gradle/caches/transforms-2/files-2.1/40f1c5d439eea30faeaafe93e7bdf45f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
@@ -315,3 +323,13 @@ ADDED from [:react-native-image-picker] /Volumes/T7/Github Repos/Chatter/node_mo
 		ADDED from [:react-native-image-picker] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
 	android:name
 		ADDED from [:react-native-image-picker] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
+ADDED from [:react-native-webview] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-webview] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-webview] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+	android:exported
+		ADDED from [:react-native-webview] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-webview] /Volumes/T7/Github Repos/Chatter/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
